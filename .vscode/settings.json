@@ -1,0 +1,12 @@
+{
+  "rust-analyzer.cargo.target": "aarch64-unknown-none",
+  "rust-analyzer.check.overrideCommand": [
+    "cargo",
+    "check",
+    "-p",
+    "ritm",
+    "--message-format=json",
+    "--target",
+    "aarch64-unknown-none"
+  ]
+}
